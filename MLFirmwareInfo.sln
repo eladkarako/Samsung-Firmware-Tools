@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 10
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLFirmwareInfo", "MLFirmwareInfo\MLFirmwareInfo.csproj", "{EE1A1BDD-C5E5-4E7D-BEC1-FBC72FB46D3A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6FA36774-ED34-4F83-89A0-90430AD0F1B4} = {6FA36774-ED34-4F83-89A0-90430AD0F1B4}
+		{E78C6FBF-430A-4881-AA40-4663039C687A} = {E78C6FBF-430A-4881-AA40-4663039C687A}
+		{A39BAFFB-A8AD-4C41-8373-83D4A56A499E} = {A39BAFFB-A8AD-4C41-8373-83D4A56A499E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCS.MLFileInfo", "WCS.MLFileInfo\WCS.MLFileInfo.csproj", "{F4ACCD16-C456-42B9-A4A7-19269E8500EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libTest", "libTest\libTest.csproj", "{A39BAFFB-A8AD-4C41-8373-83D4A56A499E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCS.FatSharp", "WCS.FatSharp\WCS.FatSharp.csproj", "{7F075A9C-03B6-4D01-89BB-77A07F3B181A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLFI.Interfaces", "MLFI.Interfaces\MLFI.Interfaces.csproj", "{79020EB8-1DD2-4FA4-8E22-CAA6E2020615}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootImageEditor", "BootImageEditor\BootImageEditor.csproj", "{E78C6FBF-430A-4881-AA40-4663039C687A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryFS", "FactoryFS\FactoryFS.csproj", "{6FA36774-ED34-4F83-89A0-90430AD0F1B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE1A1BDD-C5E5-4E7D-BEC1-FBC72FB46D3A}.Debug|x86.ActiveCfg = Debug|x86
+		{EE1A1BDD-C5E5-4E7D-BEC1-FBC72FB46D3A}.Debug|x86.Build.0 = Debug|x86
+		{EE1A1BDD-C5E5-4E7D-BEC1-FBC72FB46D3A}.Release|x86.ActiveCfg = Release|x86
+		{EE1A1BDD-C5E5-4E7D-BEC1-FBC72FB46D3A}.Release|x86.Build.0 = Release|x86
+		{F4ACCD16-C456-42B9-A4A7-19269E8500EF}.Debug|x86.ActiveCfg = Debug|x86
+		{F4ACCD16-C456-42B9-A4A7-19269E8500EF}.Debug|x86.Build.0 = Debug|x86
+		{F4ACCD16-C456-42B9-A4A7-19269E8500EF}.Release|x86.ActiveCfg = Release|x86
+		{F4ACCD16-C456-42B9-A4A7-19269E8500EF}.Release|x86.Build.0 = Release|x86
+		{A39BAFFB-A8AD-4C41-8373-83D4A56A499E}.Debug|x86.ActiveCfg = Debug|x86
+		{A39BAFFB-A8AD-4C41-8373-83D4A56A499E}.Debug|x86.Build.0 = Debug|x86
+		{A39BAFFB-A8AD-4C41-8373-83D4A56A499E}.Release|x86.ActiveCfg = Release|x86
+		{A39BAFFB-A8AD-4C41-8373-83D4A56A499E}.Release|x86.Build.0 = Release|x86
+		{7F075A9C-03B6-4D01-89BB-77A07F3B181A}.Debug|x86.ActiveCfg = Debug|x86
+		{7F075A9C-03B6-4D01-89BB-77A07F3B181A}.Debug|x86.Build.0 = Debug|x86
+		{7F075A9C-03B6-4D01-89BB-77A07F3B181A}.Release|x86.ActiveCfg = Release|x86
+		{7F075A9C-03B6-4D01-89BB-77A07F3B181A}.Release|x86.Build.0 = Release|x86
+		{79020EB8-1DD2-4FA4-8E22-CAA6E2020615}.Debug|x86.ActiveCfg = Debug|x86
+		{79020EB8-1DD2-4FA4-8E22-CAA6E2020615}.Debug|x86.Build.0 = Debug|x86
+		{79020EB8-1DD2-4FA4-8E22-CAA6E2020615}.Release|x86.ActiveCfg = Release|x86
+		{79020EB8-1DD2-4FA4-8E22-CAA6E2020615}.Release|x86.Build.0 = Release|x86
+		{E78C6FBF-430A-4881-AA40-4663039C687A}.Debug|x86.ActiveCfg = Debug|x86
+		{E78C6FBF-430A-4881-AA40-4663039C687A}.Debug|x86.Build.0 = Debug|x86
+		{E78C6FBF-430A-4881-AA40-4663039C687A}.Release|x86.ActiveCfg = Release|x86
+		{E78C6FBF-430A-4881-AA40-4663039C687A}.Release|x86.Build.0 = Release|x86
+		{6FA36774-ED34-4F83-89A0-90430AD0F1B4}.Debug|x86.ActiveCfg = Debug|x86
+		{6FA36774-ED34-4F83-89A0-90430AD0F1B4}.Debug|x86.Build.0 = Debug|x86
+		{6FA36774-ED34-4F83-89A0-90430AD0F1B4}.Release|x86.ActiveCfg = Release|x86
+		{6FA36774-ED34-4F83-89A0-90430AD0F1B4}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
